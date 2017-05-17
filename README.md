@@ -31,7 +31,7 @@ Rdata files containing event samples from BAMM analyses of the Jetz et al. (2012
 - lumped_data_final.txt
 - split_data_final.txt
 
-Data on each species with population differentiation estimates gathered from Smith et al. (2017). These include population differentiation estimates.
+Data on population differentiation, species age, and ecological/environmental traits in each species from Smith et al. (2017). 
 
 - taxonomy_key.txt
 
