@@ -14,13 +14,13 @@ A file including 100 trees from the pseudo-posterior of Jetz et al. (2012).
 - Hackett_split_justgeneticdata.tre
 - Hackett_time_justgeneticdata.tre
 
-Trees pruned to each taxonomy examined in the paper, containing just species represented by genetic data in Jetz et al. (2012).
+Maximum clade credibility trees pruned to each taxonomy examined in the paper, containing just species represented by genetic data in Jetz et al. (2012).
 
 - DR_calculation_lumped
 - DR_calculation_split
 - DR_calculation_time
 
-R scripts calculating the DR statistic (Jetz et al. 2012) for trees corresponding to the three taxonomies examined in the paper.
+R scripts calculating the diversification rate (DR) statistic (Jetz et al. 2012) for trees corresponding to the three taxonomies examined in the paper.
 
 - Hackett_lumped_eventsample.rda
 - Hackett_split_eventsample.rda
@@ -31,11 +31,11 @@ Rdata files containing event samples from BAMM analyses of the Jetz et al. (2012
 - lumped_data_final.txt
 - split_data_final.txt
 
-Data on population differentiation, species age, and ecological/environmental traits in each species from Smith et al. (2017). 
+Data on population differentiation, species age, sampling, and ecological, environmental, morphological, and biogeographic traits in each species from Smith et al. (2017). 
 
 - taxonomy_key.txt
 
-A key relating species names from our study to those of Jetz et al. (2012).
+A key relating species names from the taxonomies examined in our study to those of the taxonomy in Jetz et al. (2012).
 
 - Main_text_analyses.R
 - Supplementary_analyses.R
