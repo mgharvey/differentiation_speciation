@@ -1,4 +1,4 @@
-setwd("~/Desktop/Feb_2017")
+setwd("~/Differentiation_Speciation/")
 getwd()
 
 # Script: Supplementary_analyses.r 

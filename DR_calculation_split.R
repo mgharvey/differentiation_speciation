@@ -1,5 +1,11 @@
-setwd("~/Desktop/Feb_2017/")
+setwd("~/Differentiation_Speciation/")
 getwd()
+
+# Script: DR_calculation_split.r 
+# By: Michael G. Harvey 
+# Date: 20 February 2017
+
+# A script to calculate DR statistics for the split taxonomy.
 
 require(ape)
 
@@ -26,12 +32,12 @@ DR_statistic <- function(x, return.mean = FALSE){
 	}
 }
 
-path = "~/Desktop/Feb_2017/100_complete_trees/"
+path = "./100_complete_trees/"
 file.names <- dir(path, pattern =".tre")
 
 outfile.names <- NULL
 for (i in 1:100) {
-	outfile.names[i] <- paste("~/Desktop/Feb_2017/DR_results_split/", i, ".txt", sep="")
+	outfile.names[i] <- paste("./DR_results_split/", i, ".txt", sep="")
 }
 
 for (i in 1:length(file.names)) {

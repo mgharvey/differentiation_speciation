@@ -1,5 +1,11 @@
-setwd("~/Desktop/Feb_2017/")
+setwd("~/Differentiation_Speciation/")
 getwd()
+
+# Script: DR_calculation_lumped.r 
+# By: Michael G. Harvey 
+# Date: 20 February 2017
+
+# A script to calculate DR statistics for the lumped taxonomy.
 
 require(ape)
 
@@ -26,20 +32,20 @@ DR_statistic <- function(x, return.mean = FALSE){
 	}
 }
 
-path = "~/Desktop/Feb_2017/100_complete_trees/"
+path = "./100_complete_trees/"
 file.names <- dir(path, pattern =".tre")
 
 outfile.names <- NULL
 for (i in 1:100) {
-	outfile.names[i] <- paste("~/Desktop/Feb_2017/DR_results_lumped/", i, ".txt", sep="")
+	outfile.names[i] <- paste("./DR_results_lumped/", i, ".txt", sep="")
 }
 
 # Tree used for BAMM analyses
 birdtree <- read.tree('Hackett_lumped_justgeneticdata.tre')
 
 # Get a list of tips to drop
-key <- read.table("~/Desktop/Feb_2017/taxonomy_key.txt", sep="\t", header=T)
-lumped <- read.table("~/Desktop/Feb_2017/lumped_data_final.txt", header=T, sep="\t", row.names=2)
+key <- read.table("./taxonomy_key.txt", sep="\t", header=T)
+lumped <- read.table("./lumped_data_final.txt", header=T, sep="\t", row.names=2)
 tips_to_drop <- NULL
 tips_to_keep <- NULL
 for (i in 1:nrow(lumped)) { 

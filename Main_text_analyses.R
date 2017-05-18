@@ -1,7 +1,7 @@
 setwd("~/Differentiation_Speciation/")
 getwd()
 
-# Script: Primary_analyses.r 
+# Script: Main_text_analyses.r 
 # By: Michael G. Harvey 
 # Date: 20 February 2017
 
