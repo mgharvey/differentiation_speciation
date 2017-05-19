@@ -22,6 +22,10 @@ Maximum clade credibility trees pruned to each taxonomy examined in the paper, c
 
 R scripts calculating the diversification rate (DR) statistic (Jetz et al. 2012) for trees corresponding to the three taxonomies examined in the paper.
 
+- mean_rates.py
+
+A Python script to calculate the mean DR rate for each species from the DR values from 100 pseudo-posterior samples.
+
 - Hackett_lumped_eventsample.rda
 - Hackett_split_eventsample.rda
 - Hackett_time_eventsample.rda
