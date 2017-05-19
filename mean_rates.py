@@ -2,6 +2,13 @@
 
 """
 
+Script: mean_rates.py
+By: Michael G. Harvey 
+Date: 20 February 2017
+
+A script to calculate mean rates from a folder of rate calculations for a sample of trees 
+and output them to a single file.
+
 """
 
 import os
