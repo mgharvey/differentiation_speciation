@@ -2,7 +2,7 @@
 
 Included in this data package are scripts and files to replicate analyses in:
 
-Harvey MG, Seeholzer GF, Smith BT, Rabosky DL, Cuervo AM, Brumfield RT. In press. Positive association between population genetic differentiation and speciation rates in New World birds. *Proceedings of the National Academy of Sciences*.
+Harvey MG, Seeholzer GF, Smith BT, Rabosky DL, Cuervo AM, Brumfield RT. 2017. Positive association between population genetic differentiation and speciation rates in New World birds. *Proceedings of the National Academy of Sciences* doi:10.1073/pnas.1617397114.
 
 Included are:
 
